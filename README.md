@@ -1,4 +1,6 @@
-#DeepSDF
+### Project Introduction
+This is a guide for running our DeepSDF for 3D reconstruction.
+
 ### Data Preparation
 Please download [ShapeNetCore.v2](https://shapenet.cs.stanford.edu/shapenet/obj-zip/ShapeNetCore.v2.zip) dataset and organize the data as follow:
 ```
@@ -54,3 +56,6 @@ python metrics.py --recon_folder "mesh_train" --gt_folder "mesh"
 ```
 python metrics.py --recon_folder "mesh_test" --gt_folder "mesh"
 ```
+
+### Results
+Due to the limitations of computational resources, we only sampled 25000 points of each model. The reconstruction result can be shown below.
