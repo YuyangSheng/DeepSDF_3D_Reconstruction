@@ -1,4 +1,4 @@
-# Project Introduction
+## Project Introduction
 This is a guide for running our DeepSDF for 3D reconstruction.
 
 ### Data Preparation
@@ -61,6 +61,7 @@ python metrics.py --recon_folder "mesh_test" --gt_folder "mesh"
 Due to the limitations of computational resources, we only sampled 25000 points of each model. The reconstruction example can be seen below.
 <div align='center'>
 <img src='results.png' width=550>
-The ground-truth mesh (left), the reconstructed known shape (middle) and the reconstructed unknown shape (right)
+
+  The ground-truth mesh (left), the reconstructed known shape (middle) and the reconstructed unknown shape (right)
 <!-- ![The ground-truth mesh (left), the reconstructed known shape (middle) and the reconstructed unknown shape (right)](results.png) -->
 </div>
