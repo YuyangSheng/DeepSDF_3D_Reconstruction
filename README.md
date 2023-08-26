@@ -59,6 +59,8 @@ python metrics.py --recon_folder "mesh_test" --gt_folder "mesh"
 
 ### Results
 Due to the limitations of computational resources, we only sampled 25000 points of each model. The reconstruction example can be seen below.
-
-**Left is ground-truth mesh, middle is the reconstructed known shape and right is reconstructed unknown shape.**
-![The ground-truth mesh (left), the reconstructed known shape (middle) and the reconstructed unknown shape (right)](results.png)
+<div align='center'>
+<img src='results.png' width=550>
+The ground-truth mesh (left), the reconstructed known shape (middle) and the reconstructed unknown shape (right)
+<!-- ![The ground-truth mesh (left), the reconstructed known shape (middle) and the reconstructed unknown shape (right)](results.png) -->
+</div>
